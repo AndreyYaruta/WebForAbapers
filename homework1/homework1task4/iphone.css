@@ -1,0 +1,26 @@
+.iphone .green_piece {
+    width: 98%;
+    height: 16%;
+    background-color: green;
+    top: 1%;
+    left: 1%;
+    position: absolute;
+}
+
+.iphone .red_piece {
+    width: 98%;
+    height: 16%;
+    background-color: red;
+    top: 18%;
+    left: 1%;
+    position: absolute;
+}
+
+.iphone .purple_piece {
+    width: 98%;
+    height: 64%;
+    background-color: purple;
+    top: 35%;
+    left: 1%;
+    position: absolute;
+}

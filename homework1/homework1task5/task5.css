@@ -1,0 +1,32 @@
+                .box {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: flex-start;
+                    background-color: transparent;
+                    flex-wrap: wrap;
+                }
+                
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .box-item {
+                    height: 200px;
+                    background-color: transparent;
+                    border: 2px solid black;
+                    flex-grow: 1;
+                }
+                
+                @media only screen and (max-width:1280px) {
+                    .box-item {
+                        width: 24%;
+                    }
+                }
+                
+                @media only screen and (min-width: 1281px) {
+                    .box-item {
+                        width: 19%;
+                    }
+                }

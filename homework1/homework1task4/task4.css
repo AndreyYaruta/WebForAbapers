@@ -1,0 +1,67 @@
+/* iPhone */
+
+@media only screen and (max-width:600px) {
+    .iphone {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        top: 0%;
+        left: 0%;
+    }
+    .ipad {
+        position: absolute;
+        z-index: 0;
+    }
+    .desktop {
+        position: absolute;
+        z-index: 0;
+    }
+}
+
+
+/* iPad */
+
+@media only screen and (min-width:601px) and (max-width:1079px) {
+    .iphone {
+        position: absolute;
+        z-index: 0;
+    }
+    .ipad {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        top: 0%;
+        left: 0%;
+    }
+    .desktop {
+        position: absolute;
+        z-index: 0;
+    }
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width:1080px) {
+    .iphone {
+        position: absolute;
+        z-index: 0;
+    }
+    .ipad {
+        position: absolute;
+        z-index: 0;
+    }
+    .desktop {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        top: 0%;
+        left: 0%;
+    }
+}

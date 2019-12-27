@@ -1,0 +1,44 @@
+.ipad .orange_piece {
+    width: 39%;
+    height: 16%;
+    background-color: orange;
+    top: 1%;
+    left: 1%;
+    position: absolute;
+}
+
+.ipad .purple_piece {
+    width: 58%;
+    height: 16%;
+    background-color: purple;
+    top: 1%;
+    left: 41%;
+    position: absolute;
+}
+
+.ipad .red_piece {
+    width: 98%;
+    height: 48%;
+    background-color: red;
+    top: 18%;
+    left: 1%;
+    position: absolute;
+}
+
+.ipad .green_piece {
+    width: 48%;
+    height: 32%;
+    background-color: green;
+    top: 67%;
+    left: 1%;
+    position: absolute;
+}
+
+.ipad .blue_piece {
+    width: 49%;
+    height: 32%;
+    background-color: blue;
+    top: 67%;
+    left: 50%;
+    position: absolute;
+}

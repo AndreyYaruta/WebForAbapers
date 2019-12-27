@@ -1,0 +1,43 @@
+.my_header {
+    top: 0%;
+    height: 15%;
+    background-color: red;
+    border: thick black solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 5%;
+    width: 90%;
+    position: absolute;
+}
+
+.my_footer {
+    top: 85%;
+    height: 15%;
+    background-color: red;
+    border: thick black solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    left: 5%;
+    width: 90%;
+    position: absolute;
+}
+
+.my_menu {
+    position: fixed;
+    top: 20%;
+    /* bottom: 20%; */
+    /* height: 60%; */
+    width: 10%;
+    height: 600px;
+    background-color: rgba(128, 128, 128, 0.5);
+    /* rgba(255,255,255,0.5); */
+}
+
+.my_central {
+    position: absolute;
+    top: 20%;
+    height: 60%;
+    left: 10%;
+    width: 80%;
+    background-color: aqua;
+}
